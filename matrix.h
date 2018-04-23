@@ -5,7 +5,7 @@
 
 using namespace std;
 
-template <class T>
+template <class T, size_t a, size_t b;>
 class Matrix{
   public:
     template <class T>
@@ -171,6 +171,4 @@ class Matrix{
     }
   private:
   int** matrix; 
-  size_t a;
-  size_t b;
 };
